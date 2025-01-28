@@ -4,8 +4,8 @@ const actionSelect = document.querySelector("#action");
 const equalButton = document.querySelector("#equal");
 
 equalButton.addEventListener("click", () => {
-  const firstFild = parseFloat(firstFild.value);
-  const secondFild = parseFloat(secondFild.value);
+  const firstNumber = parseFloat(firstFild.value);
+  const secondNumber = parseFloat(secondFild.value);
   const action = actionSelect.value;
   let result;
   switch (action) {
